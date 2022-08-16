@@ -1,0 +1,25 @@
+# Then create the virtual environment "gnn_opt":
+# conda create -n gnn_opt python=3.7 --file requirements.txt -c dglteam -y
+pandas
+scipy
+requests
+networkx
+tqdm
+pytorch
+jupyter
+nb_conda_kernels
+
+###### DGL installation options
+# For CPU-based DGL installation (default option)
+dgl
+
+# For GPU-based DGL installation:
+# DGL installation is complicated if you want to include CUDA (i.e. use GPUs)
+# First, go to the terminal and look for the CUDA version, i.e. via `nvidia-smi`
+# With that version, you can insert into the following command:
+# `conda install -c dglteam dgl-cudaXY.Z`
+# For instance, if CUDA version = 11.0:
+# `conda install -c dglteam dgl-cuda11.0`
+
+# Uncomment this line for GPU install (with CUDA 11.0)
+# dgl-cuda11.0

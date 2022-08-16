@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+.DS_Store
+__pycache__
+
+# PyCharm
+.idea
+
+# Do not track data files; we provide instructions on downloading + setting up in README
+data
